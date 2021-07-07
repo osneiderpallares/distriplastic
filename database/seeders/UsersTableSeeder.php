@@ -14,14 +14,24 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
-            'id' => 1,
-            'name' => 'Admin Admin',
-            'email' => 'admin@white.com',
+        DB::table('users')->insert([            
+            'name' => 'Admin',
+            'email' => 'osneider.pallares20@gmail.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('secret'),
+            'username'   => 'admin',
+            'password' => Hash::make('admin'),
             'created_at' => now(),
             'updated_at' => now()
         ]);
+        DB::table('users')->insert([            
+            'name' => 'Julieth',
+            'lastname' => 'Vanegas',
+            'email' => 'admin@white.com',
+            'email_verified_at' => now(),
+            'username'   => 'julieth',
+            'password' => Hash::make('julieth'),
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);       
     }
 }

@@ -56,6 +56,17 @@
                             <input type="text" name="name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ _('Name') }}" value="{{ old('name') }}">
                             @include('alerts.feedback', ['field' => 'name'])
                         </div>
+
+                        <div class="input-group{{ $errors->has('lastname') ? ' has-danger' : '' }}">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="tim-icons icon-single-02"></i>
+                                </div>
+                            </div>
+                            <input type="text" name="lastname" class="form-control{{ $errors->has('lastname') ? ' is-invalid' : '' }}" placeholder="{{ _('Lastname') }}" value="{{ old('lastname') }}">
+                            @include('alerts.feedback', ['field' => 'lastname'])
+                        </div>
+
                         <div class="input-group{{ $errors->has('email') ? ' has-danger' : '' }}">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
@@ -65,6 +76,17 @@
                             <input type="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" placeholder="{{ _('Email') }}" value="{{ old('email') }}">
                             @include('alerts.feedback', ['field' => 'email'])
                         </div>
+
+                        <div class="input-group{{ $errors->has('username') ? ' has-danger' : '' }}">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="tim-icons icon-single-02"></i>
+                                </div>
+                            </div>
+                            <input type="text" name="username" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" placeholder="{{ _('Username') }}" value="{{ old('username') }}">
+                            @include('alerts.feedback', ['field' => 'username'])
+                        </div>
+
                         <div class="input-group{{ $errors->has('password') ? ' has-danger' : '' }}">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
