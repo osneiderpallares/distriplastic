@@ -3,17 +3,17 @@
         <ul class="nav">
             <li class="nav-item">
                 <a href="https://creative-tim.com" target="blank" class="nav-link">
-                    {{ _('Creative Tim') }}
+                    {{ _('Productos') }}
                 </a>
             </li>
             <li class="nav-item">
                 <a href="https://updivision.com" target="blank" class="nav-link">
-                    {{ _('Updivision') }}
+                    {{ _('Distriplásticos') }}
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    {{ _('About Us') }}
+                    {{ _('Acerca de nosotros') }}
                 </a>
             </li>
             <li class="nav-item">
@@ -24,8 +24,8 @@
         </ul>
         <div class="copyright">
             &copy; {{ now()->year }} {{ _('made with') }} <i class="tim-icons icon-heart-2"></i> {{ _('by') }}
-            <a href="https://creative-tim.com" target="_blank">{{ _('Creative Tim') }}</a> &amp;
-            <a href="https://updivision.com" target="_blank">{{ _('Updivision') }}</a> {{ _('for a better web') }}.
+            <a href="//linkedin.com/in/osneider-pallares-pérez-a178a4177" target="_blank">{{ _('Osneider Pallares') }}</a> &amp;
+            <a href="https://www.freelancer.com.co/" target="_blank">{{ _('Freelancer') }}</a> {{ _('for distrplastics') }}.
         </div>
     </div>
 </footer>

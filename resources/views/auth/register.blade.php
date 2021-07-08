@@ -1,4 +1,4 @@
-@extends('layouts.app', ['class' => 'register-page', 'page' => _('Register Page'), 'contentClass' => 'register-page'])
+@extends('layouts.app', ['class' => 'register-page', 'page' => _('Página de registro'), 'contentClass' => 'register-page'])
 
 @section('content')
     <div class="row">
@@ -41,7 +41,7 @@
             <div class="card card-register card-white">
                 <div class="card-header">
                     <img class="card-img" src="{{ asset('white') }}/img/card-primary.png" alt="Card image">
-                    <h4 class="card-title">{{ _('Register') }}</h4>
+                    <h4 class="card-title">{{ _('Registro') }}</h4>
                 </div>
                 <form class="form" method="post" action="{{ route('register') }}">
                     @csrf

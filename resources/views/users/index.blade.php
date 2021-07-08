@@ -374,9 +374,9 @@
         </li>
     </ul>
     <div class="copyright">
-        © 2020 made with <i class="tim-icons icon-heart-2"></i> by
-        <a href="https://creative-tim.com" target="_blank">Creative Tim</a> &amp;
-        <a href="https://updivision.com" target="_blank">Updivision</a> for a better web.
+        &copy; {{ now()->year }} {{ _('made with') }} <i class="tim-icons icon-heart-2"></i> {{ _('by') }}
+        <a href="//linkedin.com/in/osneider-pallares-pérez-a178a4177" target="_blank">{{ _('Osneider Pallares') }}</a> &amp;
+        <a href="https://www.freelancer.com.co/" target="_blank">{{ _('Freelancer') }}</a> {{ _('for distrplastics') }}.
     </div>
 </div>
 </footer>
