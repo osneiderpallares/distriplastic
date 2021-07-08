@@ -108,14 +108,14 @@
                             <label class="form-check-label">
                                 <input class="form-check-input {{ $errors->has('agree_terms_and_conditions') ? ' is-invalid' : '' }}" name="agree_terms_and_conditions"  type="checkbox"  {{ old('agree_terms_and_conditions') ? 'checked' : '' }}>
                                 <span class="form-check-sign"></span>
-                                {{ _('I agree to the') }}
-                                <a href="#">{{ _('terms and conditions') }}</a>.
+                                {{ _('Yo acepto los ') }}
+                                <a href="#">{{ _('Términos y condiciones') }}</a>.
                                 @include('alerts.feedback', ['field' => 'agree_terms_and_conditions'])
                             </label>
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-primary btn-round btn-lg">{{ _('Get Started') }}</button>
+                        <button type="submit" class="btn btn-primary btn-round btn-lg">{{ _('Enviar') }}</button>
                     </div>
                 </form>
             </div>
